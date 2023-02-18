@@ -113,3 +113,28 @@ html {
     width: 70px;
     text-align: center;
 }
+
+/* quote section */
+
+.quote-section {
+    background-color: lightgray;
+    padding: 20px 0;
+    
+}
+
+.quote-section p{
+    padding: 20px;
+    position: relative;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-section span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}

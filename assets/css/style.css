@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     /*easy rem calc*/
+}
+html {
+    font-size: 10px;
+}
+
+#wrap {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav-bar {
+ background-color: #1F2937;
+ font-size: 1.5rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+.nav-bar .logo{
+    color: #F9FAF8;
+}
+
+.link-container ul>li { 
+    display: inline;
+    margin: 0 5px;
+    color: #E5E7EB;
+}

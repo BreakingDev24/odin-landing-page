@@ -84,3 +84,32 @@ html {
 .main-content_imgdiv img {
     width: 100%;
 }
+
+
+.info-container {
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-pic{
+    width: 70px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
+.info-container p {
+    width: 70px;
+    text-align: center;
+}

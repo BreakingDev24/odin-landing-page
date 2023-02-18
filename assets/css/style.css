@@ -138,3 +138,30 @@ html {
     bottom: 0;
     
 }
+
+.sign-up_section {
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+.sign-up_container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: fit-content;
+    margin: auto;
+    padding: 30px 50px;
+    border-radius: 10px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.sign-up_container button {
+    color: #E5E7EB;
+    padding: 0 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}

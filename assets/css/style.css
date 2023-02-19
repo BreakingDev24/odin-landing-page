@@ -57,11 +57,13 @@ html {
 
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 100px;
     
 }
 
 .main-content_text {
+    width: 50%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;

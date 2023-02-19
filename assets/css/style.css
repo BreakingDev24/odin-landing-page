@@ -25,6 +25,8 @@ html {
     align-items: center;
 }
 
+
+/* navbar */
 .nav-bar {
  width: 100%;
  background-color: var(--primary-bg-color);
@@ -45,6 +47,7 @@ html {
     color: var(--secondary-text-color);
 }
 
+/* main section */
 #main-content{
     width: 100%;
     background-color: var(--primary-bg-color);
@@ -93,7 +96,7 @@ html {
     width: 100%;
 }
 
-
+/* info section */
 .info-container {
     width: 100%;
     background-color: white;
@@ -173,6 +176,8 @@ html {
     background-color: transparent;
     cursor: pointer;
 }
+
+/* footer section */
 
 footer {
     text-align: center;

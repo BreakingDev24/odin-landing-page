@@ -1,3 +1,11 @@
+:root {
+    --primary-bg-color: #1F2937;
+    --sencondary-bg-color: #E5E7EB;
+    --main-text-color: #F9FAF8;
+    --secondary-text-color: #E5E7EB;
+    --logo-text-color: #F9FAF8;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +27,7 @@ html {
 
 .nav-bar {
  width: 100%;
- background-color: #1F2937;
+ background-color: var(--primary-bg-color);
  font-size: 1.5rem;
  display: flex;
  align-items: center;
@@ -28,18 +36,18 @@ html {
 }
 
 .nav-bar .logo{
-    color: #F9FAF8;
+    color: var(--logo-text-color);
 }
 
 .link-container ul>li { 
     display: inline;
     margin: 0 5px;
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
 }
 
 #main-content{
     width: 100%;
-    background-color: #1F2937;
+    background-color: var(--primary-bg-color);
 
     padding: 30px 10px;
     align-items: center;
@@ -57,18 +65,18 @@ html {
 }
 
 .main-content_text h2 {
-    color: #F9FAF8;
+    color: var(--main-text-color);
     font-size: 2.4rem;
     
 }
 
 .main-content_text p {
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     font-size: 1.2rem;
 }
 
 .main-content_text button {
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     background-color: #3882F6;
     width: fit-content;
     padding: 5px 10px;
@@ -117,7 +125,7 @@ html {
 /* quote section */
 
 .quote-section {
-    background-color: lightgray;
+    background-color: var(--sencondary-bg-color);
     padding: 20px 0;
     
 }
@@ -147,7 +155,7 @@ html {
 
 .sign-up_container {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     width: fit-content;
     margin: auto;
     padding: 30px 50px;
@@ -158,7 +166,7 @@ html {
 }
 
 .sign-up_container button {
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     padding: 0 10px;
     border: 1px solid white;
     border-radius: 5px;
@@ -168,9 +176,9 @@ html {
 
 footer {
     text-align: center;
-    background-color: #1F2937;
+    background-color: var(--primary-bg-color);
     width: 100%;
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     padding: 20px;
 
     font-size: 1.2rem;
